@@ -8,7 +8,7 @@ Large language models have the potential to transform medicine, but real-world c
 - **MedDistractQA-Nonliteral: Polysemous words:** Terms with clinical meanings used in non-clinical contexts.
 - **MedDistractQA-Bystander: Unrelated health references to third parties:** Mentions of health conditions that do not pertain to the core clinical query, but instead applied to an irrelevant third party.
 
-Our benchmark experiments reveal that these distractions can reduce LLM accuracy by up to **17.9%**. Notably, common approaches like retrieval-augmented generation (RAG) and medical fine-tuning did not consistently mitigate this degradation and, in some cases, introduced additional complexities.
+Our benchmark experiments reveal that these distractions can reduce LLM accuracy by up to **17.9%**. Notably, common approaches like retrieval-augmented generation (RAG) and medical fine-tuning, in some cases, introduced additional complexities that degraded performance.
 
 ## Key Features
 
